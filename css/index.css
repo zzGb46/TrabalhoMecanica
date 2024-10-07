@@ -117,3 +117,10 @@ width: 30px;
     width: 500px;
 }
 
+#botao1{
+    background-color: #F4672C;
+    border: none;
+    color: white;
+    padding: 20px;
+    width: 200px;
+}

@@ -7,7 +7,7 @@
     font-weight: normal;
     font-style: normal;
 }
- 
+
 @font-face {
     font-family: 'Sofast';
     src: url('../fonts/sofast-racing-car/Sofast Regular/Sofast.woff2') format('woff2'),
@@ -17,7 +17,7 @@
     font-weight: normal;
     font-style: normal;
 }
- 
+
 :root {
     --fontNoCorpo: "Sofast";
     --titulos: 'PACE';
@@ -30,19 +30,20 @@
     --primary-color: #FFFF00;
 }
 
-body{
-    background-color: black;
+body {
+    background-color: #2f2f32;
 }
-#img1{
+
+#img1 {
     width: 150px;
 }
 
-#opcoes{
+#opcoes {
     backdrop-filter: blur(50px);
     color: white;
 }
 
-header{
+header {
     background-image: url(../img/img/img/blog_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,74 +51,113 @@ header{
     height: 700px;
 }
 
-#section1{
+#section1 {
     display: flex;
     justify-content: space-around;
     gap: 30px;
 }
 
-#section2{
+#section2 {
     display: flex;
     justify-content: space-evenly;
     color: white;
     margin: 20px;
 }
 
-#divs1{
+#divs1 {
     display: flex;
     gap: 20px;
-    
+
 }
+
 #divs2{
-    background-color: red;
-opacity: 70%;
-border-radius: 50%;
-padding: 15px;
-width: 30px;
+    background-color: black;
+    padding: 50px;
 }
 
-#foto{
-
+#divs3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-#opacidade1{
-    
+#divs4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-#alinhamento2{
+#foto2{
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#opacidade1 {}
+
+#alinhamento2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-    
+
 }
 
-#alinhamento3{
+#alinhamento3 {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#alinhamento4{
+#alinhamento4 {
     color: white;
     margin: 200px;
 }
 
-#titulo1{
+#alinhamento5 {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin: 50px;
+}
+
+#alinhamento6{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#linha1{
+    border-bottom: 1px solid white;
+    width: 380px;
+}
+
+#titulo1 {
     font-size: 40px;
     font-weight: bolder;
     width: 500px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-  
+
 }
 
-#paragrafo1{
+
+
+#titulo2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#paragrafo1 {
     width: 500px;
 }
 
-#botao1{
+#paragrafo2{
+    width: 360px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#botao1 {
     background-color: #F4672C;
     border: none;
     color: white;

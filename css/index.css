@@ -30,8 +30,10 @@
     --primary-color: #FFFF00;
 }
 
+
+
 body {
-    background-color: #2f2f32;
+    background-image: linear-gradient(to top, #664300, black);
 }
 
 #img1 {
@@ -44,7 +46,7 @@ body {
 }
 
 header {
-    background-image: url(../img/img/img/blog_1.jpg);
+    background-image: url(../img/img/img/hero_slider_bg_1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -87,10 +89,60 @@ header {
     gap: 20px;
 }
 
+#divs5{
+    background-color: black;
+    padding: 20px;
+    border-bottom-right-radius:1000px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px #a87b05;
+    border: 1px solid #a87b05;
+}
+
+#divs6{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#divs7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    
+}
+#divs8{
+    display: flex;
+}
+
+#img2{
+    display: flex;
+    margin-top: -200px;
+    animation: 2s logo ease-in-out infinite;
+}
+
+@keyframes logo{
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translatey(15px);
+    }
+    50%{
+        transform: translatey(-15px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
 #foto2{
     background-color: orangered;
     padding: 10px;
     border-radius: 50%;
+}
+#foto3{
 }
 
 #opacidade1 {}
@@ -118,17 +170,35 @@ header {
     display: flex;
     justify-content: space-evenly;
     color: white;
-    margin: 50px;
+    margin: 1px;
+    margin-top: -20px;
 }
 
 #alinhamento6{
     display: flex;
     justify-content: space-evenly;
+    margin: 30px;
+}
+
+#alinhamento7{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+#alinhamento8{
+    display: flex;
+    justify-content: space-around;
 }
 
 #linha1{
     border-bottom: 1px solid white;
-    width: 380px;
+    width: 400px;
+}
+
+#linha2{
+    border-bottom: 1px solid gold;
+    width: 100px;
 }
 
 #titulo1 {
@@ -139,12 +209,37 @@ header {
 
 }
 
-
-
 #titulo2{
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
+}
+
+#titulo3{
+    font-family: fantasy;
+    color:transparet;
+    font-size: 30px;
+    -webkit-text-stroke: 1px white;
+}
+
+#titulo4{
+    color: #a87b05;
+    font-size: 40px;
+    font-family: "Teko", sans-serif;
+    font-weight: 1px;
+
+}
+
+#titulo5{
+    color: white;
+    font-size: 30px;
+    width: 20px;
+}
+#titulo6{
+    color: white;
+}
+#titulo7{
+    color: white;
 }
 
 #paragrafo1 {
@@ -157,8 +252,27 @@ header {
     font-size: 20px;
 }
 
+#paragrafo3{
+    border: 1px solid ;
+    background-color: black;
+    color: #a87b05;
+    width: 700px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#paragrafo4{
+    width: 550px;
+    color: white;
+    font-size: 20px;
+}
+#paragrafo5{
+    color: white;
+    width: 500px;
+}
+
 #botao1 {
-    background-color: #F4672C;
+    background-color: #272722;
     border: none;
     color: white;
     padding: 20px;

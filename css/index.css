@@ -234,6 +234,7 @@ header {
     color: white;
     font-size: 30px;
     width: 20px;
+    font-family: teko;
 }
 #titulo6{
     color: white;
@@ -263,7 +264,7 @@ header {
 
 #paragrafo4{
     width: 550px;
-    color: white;
+    color: goldenrod;
     font-size: 20px;
 }
 #paragrafo5{

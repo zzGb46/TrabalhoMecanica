@@ -143,7 +143,9 @@ header {
     border-radius: 50%;
 }
 #foto3{
+    margin-top: 100px;
 }
+
 
 #opacidade1 {}
 
@@ -191,6 +193,49 @@ header {
     justify-content: space-around;
 }
 
+#alinhamento9{
+display: flex;
+justify-content: space-evenly;
+gap: -30px;
+margin-top: 20px;
+text-align: center;
+
+}
+
+#alinhamento10{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#alinhamento11{
+    margin-top: 80px;
+}
+
+#alinhamento12{
+    display: flex;
+    justify-content: space-around;
+}
+
+#alinhamento13{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 1500px;
+   height: 452px;
+}
+
+#alinhamento14{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#alinhamento15{
+    display: flex;
+    justify-content: center;
+}
+
 #linha1{
     border-bottom: 1px solid white;
     width: 400px;
@@ -231,8 +276,8 @@ header {
 }
 
 #titulo5{
-    color: white;
-    font-size: 30px;
+    color: goldenrod;
+    font-size: 50px;
     width: 20px;
     font-family: teko;
 }
@@ -241,6 +286,34 @@ header {
 }
 #titulo7{
     color: white;
+}
+
+#titulo8{
+    font-size: 50px;
+    font-family: fantasy;
+    color: transparent;
+    -webkit-text-stroke: 1px goldenrod;
+}
+#titulo9{
+    display: flex;
+    justify-content: center;
+    color: #a87b05;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+#titulo10{
+    color: #a87b05;
+    font-size: 45px;
+    font-family: teko;
+    width: 500px;
+}
+
+#botoes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #paragrafo1 {
@@ -272,10 +345,33 @@ header {
     width: 500px;
 }
 
+#paragrafo6{
+    margin-top: -30px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+#paragrafo7{
+    width: 500px;
+    font-size: 25px;
+}
+
 #botao1 {
     background-color: #272722;
     border: none;
     color: white;
     padding: 20px;
     width: 200px;
+}
+
+#botao2{
+    background-color: #272722;
+    border: 2px solid #a87b05;
+    border-radius: 5px;
+    color: #a87b05;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    
 }

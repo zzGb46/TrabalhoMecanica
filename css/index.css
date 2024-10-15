@@ -46,8 +46,28 @@ body {
     color: white;
 }
 
+#carrossel1{
+    display: flex;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: -2;
+    animation: carro 10s ease-in-out infinite ;
+}
+
+@keyframes carro{
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translate(-1900px);
+    }
+    75%{
+        transform: translate(-3800px);
+    }
+}
+
 header {
-    background-image: url(../img/img/img/hero_slider_bg_1.png);
+  
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -133,6 +153,14 @@ header {
    
 }
 
+#divs11{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+
 
 
 #img2 {
@@ -160,7 +188,8 @@ header {
 }
 
 #foto2 {
-    background-color: orangered;
+    background-color: goldenrod;
+    width: 30px;
     padding: 10px;
     border-radius: 50%;
 }
@@ -173,6 +202,14 @@ header {
     width: 300px;
 }
 
+#foto5{
+    background-color: #a87b05;
+    border-radius: 50%;
+    width: 30px;
+    padding: 10px;
+    gap: 20px;
+}
+
 
 #opacidade1 {}
 
@@ -181,7 +218,16 @@ header {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    
+}
+#menus{
+    transition: 0.5s ease-in-out ;
+}
 
+#menus:hover{
+    color: #a87b05;
+    cursor: pointer;
+    
 }
 
 #alinhamento3 {
@@ -193,6 +239,8 @@ header {
 #alinhamento4 {
     color: white;
     margin: 200px;
+    position: absolute;
+    z-index: 1;
 }
 
 #alinhamento5 {
@@ -277,9 +325,24 @@ header {
     align-items: center;
     color: white;
 }
+#alinhamento18{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#alinhamento19{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 100px;
+}
+
 
 #linha1 {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid gold;
     width: 400px;
 }
 
@@ -302,6 +365,7 @@ header {
     background-clip: text;
     color: transparent;
     animation: ela 2s infinite;
+    
 }
 
 @KEYFRAMES ela {
@@ -322,9 +386,9 @@ header {
 
 #titulo3 {
     font-family: fantasy;
-    color: transparet;
+    color: black;
     font-size: 30px;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px goldenrod;
 }
 
 .oficina{
@@ -401,6 +465,10 @@ header {
     color: #a87b05;
 }
 
+#titulo12{
+    font-size: 30px;
+    color: goldenrod;
+}
 
 #team{
     position: absolute;
@@ -480,6 +548,45 @@ header {
     width: 900px;
     text-align: center;
     margin-left: -500px;
+    
+}
+#blog{
+    z-index: -1;
+    position: absolute;
+    font-size: 100px;
+    margin: 0 auto;
+    margin-right: 900px;
+    background-image: linear-gradient(to left, black, goldenrod);
+    background-clip: text;
+    background-repeat: no-repeat;
+    color: transparent;
+    animation: blog 2s ease-in-out infinite  ;
+}
+
+@keyframes blog{
+    0%{
+        background-position:-750px ;
+    }
+    100%{
+        background-position: 750px;
+    }
+}
+
+#paragrafo10{
+    width: 500px;
+    
+}
+#datas{
+    color: goldenrod;
+}
+
+#paragrafo11{
+    width: 500px;
+}
+
+
+#logofooter1{
+    width: 150px;
 }
 
 #view{

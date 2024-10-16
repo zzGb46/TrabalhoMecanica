@@ -51,7 +51,7 @@ body {
     overflow-x: hidden;
     position: absolute;
     z-index: -2;
-    animation: carro 10s ease-in-out infinite ;
+    animation: carr 12s ease-in-out infinite ;
 }
 
 @keyframes carro{
@@ -364,7 +364,7 @@ header {
     background-image: linear-gradient(to left, goldenrod, white);
     background-clip: text;
     color: transparent;
-    animation: ela 2s infinite;
+    animation: ela 2s infinite alternate;
     
 }
 

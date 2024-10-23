@@ -617,3 +617,11 @@ color: white;
     text-align: center;
 
 }
+
+#carrossel3{
+    width: 460px;
+    height: 500px;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y:hidden ;
+}

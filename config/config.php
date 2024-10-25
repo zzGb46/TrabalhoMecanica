@@ -1,7 +1,7 @@
 <?php
 
 //Definir URL base da aplicação
-define("BASE_URL", "https://kioficina.smpsistema.com.br");
+define("BASE_URL", "https://kioficina.smpsistema.com.br/");
 
 // Configuração do Data Base
 define("DB_HOST", "smpsistema.com.br");
@@ -24,5 +24,6 @@ spl_autoload_register(function ($classe) {
 
     if(file_exists('../core/' . $classe . '.php')){
         require_once '../core/' . $classe . '.php';
+
     }
 });
